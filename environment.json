@@ -1,0 +1,9 @@
+{
+    "install": "go mod download && go build ./cmd/spekka",
+    "terminals": [
+      {
+        "name": "Run Integration Tests",
+        "command": "go test ./cmd/spekka/..."
+      }
+    ]
+  }

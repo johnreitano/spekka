@@ -1,0 +1,32 @@
+# Spekka Configuration File
+# Copy this file to .spekka.yaml in your project root and customize as needed.
+
+# Project-level configuration
+project:
+  name: my-project
+  version: 1.0.0
+
+# Standards layer configuration
+# Defines where coding standards and style guides are stored
+standards:
+  # Local path to standards directory
+  path: ./openspec/standards
+  # Git URLs for remote style guides (optional)
+  remote: []
+
+# Product vision layer configuration
+# Defines where product vision and user persona documents are stored
+product:
+  path: ./openspec/product
+
+# Specifications layer configuration
+# Defines where specification documents are stored
+specs:
+  path: ./openspec/specs
+
+# Tasks layer configuration
+# Defines where task breakdown files are stored
+tasks:
+  path: ./openspec/tasks
+
+

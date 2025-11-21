@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(openspec list:*)",
+      "Bash(openspec validate:*)",
+      "Bash(/context)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

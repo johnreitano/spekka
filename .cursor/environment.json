@@ -1,0 +1,11 @@
+{
+  "install": "go mod download && go mod tidy",
+  "start": "",
+  "terminals": [
+    {
+      "name": "Test Watcher",
+      "command": "go test ./... -watch"
+    }
+  ]
+}
+
