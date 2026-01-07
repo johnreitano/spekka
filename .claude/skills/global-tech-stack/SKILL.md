@@ -5,9 +5,36 @@ description: Your approach to handling global tech stack. Use this skill when wo
 
 # Global Tech Stack
 
-This Skill provides Claude Code with specific guidance on how to adhere to coding standards as they relate to how it should handle global tech stack.
+This Skill provides Claude Code with specific guidance on how it should handle global tech stack.
 
 ## Instructions
 
-For details, refer to the information provided in this file:
-[global tech stack](spekka/standards/global/tech-stack.md)
+Define your technical stack below. This serves as a reference for all team members and helps maintain consistency across the project.
+
+### Framework & Runtime
+- **Application Framework:** [e.g., Rails, Django, Next.js, Express]
+- **Language/Runtime:** [e.g., Ruby, Python, Node.js, Java]
+- **Package Manager:** [e.g., bundler, pip, npm, yarn]
+
+### Frontend
+- **JavaScript Framework:** [e.g., React, Vue, Svelte, Alpine, vanilla JS]
+- **CSS Framework:** [e.g., Tailwind CSS, Bootstrap, custom]
+- **UI Components:** [e.g., shadcn/ui, Material UI, custom library]
+
+### Database & Storage
+- **Database:** [e.g., PostgreSQL, MySQL, MongoDB]
+- **ORM/Query Builder:** [e.g., ActiveRecord, Prisma, Sequelize]
+- **Caching:** [e.g., Redis, Memcached]
+
+### Testing & Quality
+- **Test Framework:** [e.g., Jest, RSpec, pytest]
+- **Linting/Formatting:** [e.g., ESLint, Prettier, RuboCop]
+
+### Deployment & Infrastructure
+- **Hosting:** [e.g., Heroku, AWS, Vercel, Railway]
+- **CI/CD:** [e.g., GitHub Actions, CircleCI]
+
+### Third-Party Services
+- **Authentication:** [e.g., Auth0, Devise, NextAuth]
+- **Email:** [e.g., SendGrid, Postmark]
+- **Monitoring:** [e.g., Sentry, Datadog]

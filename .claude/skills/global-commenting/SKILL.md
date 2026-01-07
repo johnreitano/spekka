@@ -5,9 +5,10 @@ description: Your approach to handling global commenting. Use this skill when wo
 
 # Global Commenting
 
-This Skill provides Claude Code with specific guidance on how to adhere to coding standards as they relate to how it should handle global commenting.
+This Skill provides Claude Code with specific guidance on how it should handle global commenting.
 
 ## Instructions
 
-For details, refer to the information provided in this file:
-[global commenting](spekka/standards/global/commenting.md)
+- **Self-Documenting Code**: Write code that explains itself through clear structure and naming
+- **Minimal, helpful comments**: Add concise, minimal comments to explain large sections of code logic.
+- **Don't comment changes or fixes**: Do not leave code comments that speak to recent or temporary changes or fixes. Comments should be evergreen informational texts that are relevant far into the future.
