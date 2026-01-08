@@ -1,14 +1,15 @@
-# Spec Shaping Process
+# Spec Creation Process
 
-You are helping me shape and plan the scope for a new feature.  The following process is aimed at documenting our key decisions regarding scope, design and architecture approach.  We will use our findings from this process later when we write the formal spec document (but we are NOT writing the formal spec yet).
+You are helping me create a complete specification for a new feature. This combines the spec shaping and spec writing processes into one seamless workflow.
 
-This process will follow 3 main phases, each with their own workflow steps:
+This process will follow 4 main phases, each with their own workflow steps:
 
 Process overview (details to follow)
 
-PHASE 1. Initilize spec
+PHASE 1. Initialize spec
 PHASE 2. Research requirements for this spec
-PHASE 3. Inform the user that the spec has been initialized
+PHASE 3. Write the specification document
+PHASE 4. Inform the user that the spec is complete
 
 Follow each of these phases and their individual workflows IN SEQUENCE:
 
@@ -37,16 +38,28 @@ The spec-shaper will give you several separate responses that you MUST show to t
 - Display these questions to the user and wait for their response
 - The spec-shaper may ask you to relay follow-up questions that you must present to user
 
-### PHASE 3: Inform the user
+### PHASE 3: Write Specification Document
+
+After requirements gathering is complete, use the **spec-writer** subagent to create the specification document:
+
+Provide the spec-writer with:
+- The spec folder path from Phase 1
+- The requirements from `planning/requirements.md`
+- Any visual assets in `planning/visuals/`
+
+The spec-writer will create `spec.md` inside the spec folder.
+
+### PHASE 4: Inform the User
 
 After all steps complete, inform the user:
 
 ```
-Spec shaping is complete!
+Spec creation is complete!
 
 ✅ Spec folder created: `[spec-path]`
 ✅ Requirements gathered
 ✅ Visual assets: [Found X files / No files provided]
+✅ Spec document created: `[spec-path]/spec.md`
 
-NEXT STEP 👉 Run `/spekka:write-spec` to generate the detailed specification document.
+NEXT STEP 👉 Run `/spekka:create-tasks` to generate your tasks list for this spec.
 ```
