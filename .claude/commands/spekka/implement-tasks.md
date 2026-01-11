@@ -39,7 +39,7 @@ Provide to the subagent:
 Instruct the subagent to:
 1. Analyze the provided spec.md, requirements.md, and visuals (if any)
 2. Analyze patterns in the codebase according to its built-in workflow
-3. Implement the assigned task group according to requirements and standards
+3. Implement the assigned task group according to requirements
 4. Update `spekka/specs/[this-spec]/tasks.md` to mark completed tasks with `- [x]`
 
 ### PHASE 3: Produce the final verification report

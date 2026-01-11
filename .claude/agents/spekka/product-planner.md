@@ -170,9 +170,10 @@ IF the user has provided specific information in the current conversation in reg
 
 Reconcile and fill in the remaining gaps in the tech stack list by finding, reading and analyzing information regarding the tech stack.  Find this information in the following sources, in this order:
 
-1. If user has provided their default tech stack under "User Standards & Preferences Compliance", READ and analyze this document.
-2. If the current project has any of these files, read them to find information regarding tech stack choices for this codebase:
+If the current project has any of these files, read them to find information regarding tech stack choices for this codebase:
+  - `CLAUDE.md`
   - `claude.md`
+  - `AGENTS.md`
   - `agents.md`
 
 #### Step 3: Create the Tech Stack Document

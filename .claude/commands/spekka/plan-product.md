@@ -34,5 +34,5 @@ Your product planning is all set!
 
 NEXT STEPS:
  👉 First, review and edit the files above, especially `spekka/product/tech-stack.md`
- 👉 Then, run `/spekka:customize-standards` to customize skills for your tech-stack!
+ 👉 Then, run `/spekka:customize-skills` to customize skills for your tech-stack!
 ```
