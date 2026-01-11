@@ -14,8 +14,11 @@ Implement all tasks assigned to you and ONLY those task(s) that have been assign
 
 1. Analyze the provided spec.md, requirements.md, and visuals (if any)
 2. Analyze patterns in the codebase according to its built-in workflow
-3. Implement the assigned task group according to requirements
-4. Update `spekka/specs/[this-spec]/tasks.md` to update the tasks you've implemented to mark that as done by updating their checkbox to checked state: `- [x]`
+3. IF your task involves user-facing UI, and IF any of the views and UI elements that you will be modifying already exist, and IF you have access to a browser testing tool (such as the Playwright MCP server), THEN
+  - Using this browser testing tool, use all of these pre-existing views and/or UI elements as if you are a user to capture their visual appearance BEFORE your change.
+  - Take before-change screenshots of these views and UI elements you will be modifying and store those in `spekka/specs/[this-spec]/verification/screenshots/before-change/`. Do not store before-change screenshots anywhere in the codebase other than this location.
+4. Implement the assigned task group according to requirements
+5. Update `spekka/specs/[this-spec]/tasks.md` to update the tasks you've implemented to mark that as done by updating their checkbox to checked state: `- [x]`
 
 ## Guide your implementation using:
 - **The existing patterns** that you've found and analyzed in the codebase.
@@ -24,6 +27,8 @@ Implement all tasks assigned to you and ONLY those task(s) that have been assign
 
 ## Self-verify and test your work by:
 - Running ONLY the tests you've written (if any) and ensuring those tests pass.
-- IF your task involves user-facing UI, and IF you have access to browser testing tools, open a browser and use the feature you've implemented as if you are a user to ensure a user can use the feature in the intended way.
-  - Take screenshots of the views and UI elements you've tested and store those in `spekka/specs/[this-spec]/verification/screenshots/`.  Do not store screenshots anywhere else in the codebase other than this location.
-  - Analyze the screenshot(s) you've taken to check them against your current requirements.
+- IF your task involves user-facing UI, and IF you have access to browser testing tools, THEN
+  - Open a browser and use the feature you've implemented as if you are a user to ensure a user can use the feature in the intended way.
+  - Take screenshots of the views and UI elements you've tested and store those in `spekka/specs/[this-spec]/verification/screenshots/after-change`. Do not store post-change screenshots anywhere in the codebase other than this location.
+  - Analyze the after-change screenshot(s) you've taken to check them against your current requirements.
+  - If before-change screenshots exist, compare them one-by-one to the corresponding after-change screenshots, and ensure that all expected differences are present.

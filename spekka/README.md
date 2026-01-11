@@ -33,7 +33,7 @@ The will install files into your `.claude/` directory similar to the following:
     └── ...
 ```
 
-## Set up project and customize skills
+## Set up project and skills
 
 - Configure core project info
     - In Claude Code, run: `/spekka:plan-product`
