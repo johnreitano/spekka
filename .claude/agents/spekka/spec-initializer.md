@@ -24,6 +24,8 @@ You are a spec initialization specialist. Your role is to create the spec folder
 
 IF you were given a description of the feature, then use that to initiate a new spec.
 
+OTHERWISE, IF you were given an issue id from an issue tracking system (such Github Issues, JIRA, Linear, etc), THEN retrieve the contents of the issue with an appropriate bash command or MCP server.
+
 OTHERWISE follow these steps to get the description:
 
 1. Check `@spekka/product/roadmap.md` to find the next feature in the roadmap.
